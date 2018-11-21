@@ -1,0 +1,13 @@
+$TTL 86400	
+@	IN SOA	orgeira.local. root.orgeira.local. (
+				1          ; serial
+				604800     ; refresh
+				86400      ; retry 
+				2419200    ; expire
+				86400      ; minimum 
+				)
+;
+@	IN		NS	ns.orgeira.local.
+ns			A	172.16.5.10; 
+dserver00		A	172.16.5.10
+uclient01		A	172.16.5.20
